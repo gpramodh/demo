@@ -1,0 +1,11 @@
+Started on Jan 14, 2020, 9:23:31 AM
+Started by event from 192.30.252.89 ⇒ http://13.58.145.50:9090/github-webhook/ on Tue Jan 14 09:23:31 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision af1b542d318af267fff558b69e03ddf6963cdc12 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/gpramodh/java.git # timeout=10
+Found 2 remote heads on https://github.com/gpramodh/java.git
+[poll] Latest remote head revision on refs/heads/master is: b733dd095219f2aa471ea81f39e7881f12522bf9
+Done. Took 0.19 sec
+Changes found

@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-01-14 09:10:30.948 UTC</timestamp>
+  <md5sum>91ff5aa2f3b40f5a849b93eeb28fef9b</md5sum>
+  <fileName>Credential id=9e61f767-407a-442e-b060-9bd7142ddf47 name=buddy/******</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.0">
+      <timestamp>1578993835896</timestamp>
+      <itemFullName>deploy</itemFullName>
+      <timestamp0>1578993685866</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

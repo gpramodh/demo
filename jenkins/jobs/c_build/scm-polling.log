@@ -1,0 +1,10 @@
+Started on Jan 16, 2020, 8:35:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 8170e35c713eddd38ee14f909ee3345848e0d925 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/gpramodh/centos.git # timeout=10
+Found 1 remote heads on https://github.com/gpramodh/centos.git
+[poll] Latest remote head revision on refs/heads/master is: 8170e35c713eddd38ee14f909ee3345848e0d925 - already built by 13
+Done. Took 0.24 sec
+No changes

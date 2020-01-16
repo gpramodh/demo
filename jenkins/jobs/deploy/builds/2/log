@@ -1,0 +1,24 @@
+Started by upstream project "[8mha:////4D0NeOMxWWCYfE/P8G2ggnL8WgL6iqE+TkCYFsD8l/ePAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP281PJ4kFnxSaWZOSn6AAZr7sTJAAAA[0mnew_java_build" build number [8mha:////4J/d/l8NMZeFlaX1DCMAbkMRgqiZw+PJnUZ101o2YN4FAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/bzU8niQWfFJpZk5KfqmAC9rZZjKAAAA[0m5
+originally caused by:
+ Started by user [8mha:////4HvZBzcTj5jp2JZ0CVQUQMwPdUCF18TKlj0oM4+no05ZAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9gqLE3PyUDABp4eGrwgAAAA==[0mgpramodh
+Started by user [8mha:////4HvZBzcTj5jp2JZ0CVQUQMwPdUCF18TKlj0oM4+no05ZAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9gqLE3PyUDABp4eGrwgAAAA==[0mgpramodh
+Running as SYSTEM
+Building remotely on [8mha:////4H76ffdeioSI+9xg2iSTgAsb4sv+WbCNZ8QO0jmg5RXNAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLLUeEMAiUTaIMYAAAA=[0mslave_1 (label1) in workspace /home/ubuntu/demo/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins10712727213287551836.sh
++ cp /home/ubuntu/demo/workspace/new_java_build/target/TomcatMavenApp-2.0.war /home/ubuntu/demo/workspace/deploy
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+ERROR: Build step failed with exception
+java.lang.NullPointerException
+	at hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:112)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1878)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:427)
+Build step 'Deploy war/ear to a container' marked build as failure
+Finished: FAILURE

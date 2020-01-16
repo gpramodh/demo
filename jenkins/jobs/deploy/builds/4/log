@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4D0NeOMxWWCYfE/P8G2ggnL8WgL6iqE+TkCYFsD8l/ePAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP281PJ4kFnxSaWZOSn6AAZr7sTJAAAA[0mnew_java_build" build number [8mha:////4DBcHOwzf0+Gh7g4fTHJ1+rk+PYD8cogVVYfjDFW0pAsAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/bzU8niQWfFJpZk5KfpmAJU6bAHKAAAA[0m6
+originally caused by:
+ Started by user [8mha:////4HvZBzcTj5jp2JZ0CVQUQMwPdUCF18TKlj0oM4+no05ZAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9gqLE3PyUDABp4eGrwgAAAA==[0mgpramodh
+Running as SYSTEM
+Building remotely on [8mha:////4H76ffdeioSI+9xg2iSTgAsb4sv+WbCNZ8QO0jmg5RXNAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLLUeEMAiUTaIMYAAAA=[0mslave_1 (label1) in workspace /home/ubuntu/demo/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins12390667418516290666.sh
++ cp /home/ubuntu/demo/workspace/new_java_build/target/TomcatMavenApp-2.0.war /home/ubuntu/demo/workspace/deploy
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /home/ubuntu/demo/workspace/deploy/TomcatMavenApp-2.0.war to container Tomcat 8.x Remote with context TomcatMavenApp
+  Redeploying [/home/ubuntu/demo/workspace/deploy/TomcatMavenApp-2.0.war]
+  Undeploying [/home/ubuntu/demo/workspace/deploy/TomcatMavenApp-2.0.war]
+  Deploying [/home/ubuntu/demo/workspace/deploy/TomcatMavenApp-2.0.war]
+Triggering a new build of [8mha:////4Ma+DsMqxHepFdpAlHjXDP42xTFs4KZFGn2b1IfXoY2MAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2S1OISoHZ9AFumAcXCAAAA[0mtesting
+Finished: SUCCESS

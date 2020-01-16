@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>ubuntu</string>
+      <string>ubuntu_12028288416813135096</string>
+    </entry>
+    <entry>
+      <string>pramodh</string>
+      <string>pramodh_3534597859189176072</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>
